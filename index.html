@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <!-- Cabeçalhos HTML -->
     <h1>Titulo Principal</h1>
@@ -14,7 +16,98 @@
     <h5>Subtitulo 4</h5>
     <h6>Subtitulo 5</h6>
 
+    <!-- Propriedade de Link -->
+    <a href="https://www.google.com" target="_blank">Acesse</a>
+
+    <!-- Propriedade de Paragrafo -->
     <p>Exemplo de paragrafo.</p>
     <p>Outro Exemplo de paragrafo</p>
+
+    <!-- Propriedade de imagem -->
+    <img src="./img/logo.png" alt="Logo google" width="200px" height="100px">
+
+    <!-- Listas Ordenada -->
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <!-- Listas Não Ordenada -->
+    <ul>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+    </ul>
+
+    <!-- Tabela -->
+    <table border="1">
+        <!-- Cabeçalho Tabela -->
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Peso</th>
+            </tr>
+        </thead>
+        <!-- Corpo Tabela -->
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>20</td>
+                <td>70kg</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>25</td>
+                <td>60kg</td>
+        </tbody>
+
+        <!-- Rodapé Tabela -->
+        <tfoot>
+            <tr>
+                <td colspan="3">RODAPÉ</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Formularios -->
+    <form action="" method="post">
+
+        <label for="nome">Nome</label>
+        <input type="text" nome="nome" placeholder="Digite seu nome..">
+
+        <label for="email">E-mail</label>
+        <input type="email" nome="email" placeholder="Digite seu e-mail..">
+
+        <label for="senha">Senha</label>
+        <input type="password" nome="senha" placeholder="Digite sua senha..">
+
+        <label for="idade">Idade</label>
+        <input type="number" nome="idade">
+
+        <Select> nome="genero" id="informacaoGenero">
+
+            <option value="Homem">Homem</option>
+            <option value="Mulher">Mulher</option>
+            <option value="Outro">Outro</option>
+
+        </Select>
+        <input type="checkbox" nome="termos">
+        <label for="termos">Aceito os termos de uso</label>
+        <br>
+
+        <input type="radio" nome="casado" value="sim"> Sim
+        <input type="radio" name="casado" value="nao" checked> Não
+        <br>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea nome="mensagem" id="" rows="5" cols="30"></textarea>
+        <br>
+
+        <input type="submit">enviar</button>
+        <input type="reset" <button type="button" </form>
+
 </body>
+
 </html>
