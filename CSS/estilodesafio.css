@@ -1,0 +1,50 @@
+
+/* Alinhamento de texto Centralizado */
+.centralizado {
+    text-align: center;
+}
+
+/* Alinhamento de texto à esquerda */
+.AlEsquerdo {
+    text-align: left;
+}
+/* Alinhamento de texto à direita */
+.AlDireito {
+    text-align: right;
+}
+/* Cor de fundo */
+.colorVerde{
+    background: #15ff00;
+}
+.colorAzul{
+    background: #6b6bd1;
+}
+
+.text_center{
+    text-align: center;
+}
+
+body{
+    background: #adabce;
+}
+.titulo{
+            color: #000000;
+            font-size: 3rem;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-align: center;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fundocinza{
+    background: #808080;
+}
+
+.embranco
+{
+    height: 15px;
+
+}

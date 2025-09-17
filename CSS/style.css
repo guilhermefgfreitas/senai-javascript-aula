@@ -34,7 +34,7 @@
             width: 100px;
             height: 100px;
             background: #131bfd;
-            border: 1px #ffffff; solid;
+            border: 1px solid #ffffff;
             color: #ffffff;
             float: left;
         }
@@ -52,3 +52,8 @@
            background: #fd1313;
            margin: 0 0 0 20px;
         }
+@media (max-width: 600px){
+   body{
+      background: #ff0000;
+   }
+}
